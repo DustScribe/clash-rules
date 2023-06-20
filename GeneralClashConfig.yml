@@ -63,6 +63,26 @@ experimental:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
+unified-delay: true
+tcp-concurrent: false
+global-client-fingerprint: chrome
+geodata-loader: standard
+geox-url:
+  geoip: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+  mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+tun:
+  enable: true
+  stack: system # system or gvisor
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+    - 198.18.0.2:53
+    - 28.0.0.2:53
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
 dns:
   enable: true # 是否启用dns false
   ipv6: false
@@ -185,21 +205,28 @@ dns:
     - shark007.net
     - ntp.ntsc.ac.cn
     - "*.mcdn.bilivideo.cn"
+  prefer-h3: true
+  use-hosts: true
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
+  nameserver-policy:
+    "services.googleapis.cn": 'https://doh.opendns.com/dns-query'
+    "geosite:cn,private": 
+      - 119.29.29.29
+      - 223.5.5.5
   nameserver:
     - 223.5.5.5 # 阿里DNS
-    - 180.76.76.76 # 百度DNS
-    - 119.29.29.29 # 腾讯DNS
-    - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-    - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-    - 114.114.114.114 # 114DNS
-    - https://dns.alidns.com/dns-query # 阿里 DoH DNS
-    - https://doh.360.cn/dns-query # 360 DoH DNS
-  proxy-server-nameserver:
-    - https://doh.opendns.com/dns-query
+    # - 180.76.76.76 # 百度DNS
+    # - 119.29.29.29 # 腾讯DNS
+    # - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
+    # - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
+    # - 114.114.114.114 # 114DNS
+    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
     - 8.8.8.8 # 谷歌DNS
     - 1.1.1.1 # Cloudflare DNS
