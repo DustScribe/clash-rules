@@ -188,13 +188,6 @@ dns:
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-  nameserver-policy:
-    "geosite:cn,private":
-      - 119.29.29.29
-      - 223.5.5.5
-    "geosite:cloudflare":
-      - https://1.0.0.1/dns-query
-      - https://1.1.1.1/dns-query
   nameserver:
     - 223.5.5.5 # 阿里DNS
     - 180.76.76.76 # 百度DNS
