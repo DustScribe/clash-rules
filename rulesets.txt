@@ -3,7 +3,7 @@
 💰 Binance,https://raw.githubusercontent.com/Mortence/clash-rules/master/rules/Binance.list
 💰 加密货币,https://raw.githubusercontent.com/Mortence/clash-rules/master/rules/Crypto.list
 🤖 AI服务,https://raw.githubusercontent.com/Mortence/clash-rules/master/rules/AI.list
-🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+🎯 全球直连,https://raw.githubusercontent.com/Mortence/clash-rules/master/rules/LocalAreaNetwork.list
 🎯 全球直连,https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/DIRECT.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
