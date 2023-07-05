@@ -23,7 +23,8 @@ allow-lan: true
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
 bind-address: "*"
-ipv6: true
+ipv6: false
+find-process-mode: strict
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 # mode: rule
@@ -31,9 +32,11 @@ ipv6: true
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
+mode: rule
 
 # Clash 的 RESTful API
 external-controller: "127.0.0.1:9090"
+external-ui: Yacd-meta
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
@@ -49,7 +52,7 @@ external-controller: "127.0.0.1:9090"
 # 实验性功能
 experimental:
   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-  # interface-name: en0 # outbound interface name
+  sniff-tls-sni: true
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
@@ -64,7 +67,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 unified-delay: true
-tcp-concurrent: false
+tcp-concurrent: true
 global-client-fingerprint: chrome
 geodata-loader: standard
 geox-url:
@@ -83,14 +86,33 @@ tun:
   auto-redir: true
   auto-route: true
   auto-detect-interface: true
-
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
-  enable: true # 是否启用dns false
+  enable: true
   ipv6: false
+  prefer-h3: true
   listen: 0.0.0.0:53
-  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
-  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+  use-hosts: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver-policy:
+    "services.googleapis.cn": 'https://doh.opendns.com/dns-query'
+    "geosite:cn,private": 
+      - 119.29.29.29
+      - 223.5.5.5
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  nameserver:
+    - 223.5.5.5 # 阿里DNS
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fake-ip-filter:
     - "WORKGROUP"
     - "apps.apple.com"
     - "+.synology.me"
@@ -103,6 +125,7 @@ dns:
     - "+.nlsaas.com"
     - "+.czb365.com"
     - "+.tencentcdb.com"
+    - "+.dnsapi.cn"
     - "+.10010.com"
     - "*.lan"
     - "*.localdomain"
@@ -206,28 +229,6 @@ dns:
     - shark007.net
     - ntp.ntsc.ac.cn
     - "*.mcdn.bilivideo.cn"
-  prefer-h3: true
-  use-hosts: true
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-  nameserver-policy:
-    "services.googleapis.cn": 'https://doh.opendns.com/dns-query'
-    "geosite:cn,private": 
-      - 119.29.29.29
-      - 223.5.5.5
-  nameserver:
-    - 223.5.5.5 # 阿里DNS
-    # - 180.76.76.76 # 百度DNS
-    # - 119.29.29.29 # 腾讯DNS
-    # - 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
-    # - 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
-    # - 114.114.114.114 # 114DNS
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
   fallback:
     - 8.8.8.8 # 谷歌DNS
     - 1.1.1.1 # Cloudflare DNS
