@@ -49,7 +49,7 @@ geox-url:
   mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 tun:
   enable: true
-  stack: system
+  stack: gvisor
   dns-hijack:
     - any:53
     - tcp://any:53

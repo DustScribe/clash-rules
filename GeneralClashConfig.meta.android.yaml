@@ -27,7 +27,7 @@ geox-url:
   mmdb: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 tun:
   enable: true
-  stack: gvisor # system or gvisor
+  stack: system
   dns-hijack:
     - any:53
     - tcp://any:53
