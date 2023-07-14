@@ -27,3 +27,6 @@ DOMAIN-SUFFIX,parallelskorea.com
 DOMAIN-SUFFIX,pax-manager.myparallels.com
 DOMAIN-SUFFIX,myparallels.com
 DOMAIN-SUFFIX,my.parallels.com
+
+# 微x模块
+PROCESS-NAME,com.fkzhang.wechatxposed
