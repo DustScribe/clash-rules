@@ -14,3 +14,5 @@ DOMAIN-SUFFIX,ai.com
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
