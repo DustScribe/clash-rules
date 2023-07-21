@@ -82,20 +82,19 @@ dns:
       - 223.5.5.5
       - 119.29.29.29
       - 114.114.114.114
-    services.googleapis.cn: https://doh.opendns.com/dns-query#h3=true
-    geosite:geolocation-!cn: [tls://8.8.4.4#h3=true, https://1.0.0.1/dns-query#h3=true]
+    services.googleapis.cn: https://doh.opendns.com/dns-query
     geosite:category-ads-all: rcode://success
   proxy-server-nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   nameserver:
-    - https://dns.alidns.com/dns-query#h3=true
-    - https://doh.pub/dns-query#h3=true
-    - https://1.1.1.1/dns-query#h3=true
-    - https://doh.opendns.com/dns-query#h3=true
-    - https://dns.ipv6dns.com/dns-query#h3=true
-    - https://101.6.6.6:8443/dns-query#h3=true
-    - https://dns.google/dns-query#h3=true
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://1.1.1.1/dns-query#proxy
+    - https://doh.opendns.com/dns-query
+    - https://dns.ipv6dns.com/dns-query#proxy
+    - https://101.6.6.6:8443/dns-query
+    - https://dns.google/dns-query#proxy
   fake-ip-filter:
     - "WORKGROUP"
     - "apps.apple.com"
