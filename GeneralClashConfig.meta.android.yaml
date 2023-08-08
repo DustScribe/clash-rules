@@ -58,11 +58,7 @@ dns:
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-    - https://1.1.1.1/dns-query#proxy
     - https://doh.opendns.com/dns-query
-    - https://dns.ipv6dns.com/dns-query#proxy
-    - https://101.6.6.6:8443/dns-query
-    - https://dns.google/dns-query#proxy
   fake-ip-filter:
     - "WORKGROUP"
     - "apps.apple.com"
