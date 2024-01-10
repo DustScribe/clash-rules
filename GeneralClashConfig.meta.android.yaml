@@ -26,7 +26,7 @@ geox-url:
   geosite: "https://ghproxy.com/https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
   mmdb: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 tun:
-  enable: true
+  enable: false
   stack: system
   dns-hijack:
     - any:53
