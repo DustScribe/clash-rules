@@ -1,0 +1,24 @@
+# 自用
+# https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/OpenAi.list
+
+PROCESS-NAME,chatbox
+DOMAIN,cdn.auth0.com
+
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,ai.fakeopen.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-KEYWORD,ai.google
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,poe.com
+
+# 实际不是 AI，但是 A 有单独的 Node，需要给它用
+DOMAIN-SUFFIX,scaleway.com

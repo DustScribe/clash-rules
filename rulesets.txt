@@ -11,7 +11,7 @@
 💰 Crypto,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Crypto.list
 💰 Direct Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/master/DirectTrade.list
 💰 Proxy Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/master/ctTrade.list
-🤖 AI服务,https://raw.githubusercontent.com/CuminLo/clash-rules/master/AI.list
+🤖 AI服务,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/AI.list
 🤖 AI服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
  苹果服务,[]GEOSITE,apple-cn
  苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
