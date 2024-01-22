@@ -1,3 +1,4 @@
+🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 🇬 Google,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Google.list
 🚀 节点选择,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Proxy.list
 🎯 全球直连,https://raw.githubusercontent.com/CuminLo/clash-rules/master/DirectDomain.list
@@ -7,7 +8,7 @@
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 🅱️ Crypto Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Binance.list
 🅱️ Crypto Trade,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Binance.list
-🅱️ Crypto Trade,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bybit.list
+🅱️ Crypto Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/main/Bybit.list
 💰 Crypto,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Crypto.list
 💰 Direct Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/master/DirectTrade.list
 💰 Proxy Trade,https://raw.githubusercontent.com/CuminLo/clash-rules/master/ctTrade.list
@@ -21,7 +22,6 @@
 📹 油管视频,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Youtube.list
 📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 🇬 Google,[]GEOSITE,google
-🇬 Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 🇬 Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 🇬 Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCN.list
 🇬 Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
@@ -40,7 +40,7 @@
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-🎯 全球直连,https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/DIRECT.list
+🎯 全球直连,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/DIRECT.list
 🎯 全球直连,clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt,86400
 📺 巴哈姆特,[]GEOSITE,bahamut
 📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
