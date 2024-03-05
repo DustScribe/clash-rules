@@ -1,12 +1,12 @@
 
 🚀 节点选择`select`[]♻️ 自动选择`[]🔥 手动切换`[]☯️ 全部节点`[]DIRECT
-🔥 手动切换`select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚲 SS`[]🪙 一元机场`[]🪨 eevpn
+🔥 手动切换`select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚲 SS`[]🪙 一元机场`[]🪨 eevpn`[]☯️ 全部节点
 ☯️ 全部节点`select`.*
-♻️ 自动选择`url-test`(^(?!.*(高峰|流媒体|拥挤|0x)).*)`http://www.gstatic.com/generate_204`300,,50
-🅱️ Crypto Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore)(?!.*(高峰|拥挤|0x))
-💰 Crypto`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤|0x))
-💰 Direct Trade`select`[]DIRECT`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤|0x))
-💰 Proxy Trade`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤|0x))
+♻️ 自动选择`url-test`(^(?!.*(高峰|流媒体|拥挤)).*)`http://www.gstatic.com/generate_204`300,,50
+🅱️ Crypto Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore)(?!.*(高峰|拥挤))
+💰 Crypto`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
+💰 Direct Trade`select`[]DIRECT`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
+💰 Proxy Trade`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
 🤖 AI服务`select`(ChatGPT)`[]🔥 手动切换
 👨‍💻‍ Github`select`[]🚀 节点选择`[]☯️ 全部节点`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
 📹 油管视频`select`[]🚀 节点选择`[]☯️ 全部节点`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
