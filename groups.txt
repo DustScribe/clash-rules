@@ -1,14 +1,14 @@
 
 🚀 节点选择`select`[]♻️ 自动选择`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🔥 手动切换`[]☯️ 全部节点`[]DIRECT
-🔥 手动切换`select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚲 SS`[]🪙 一元机场`[]🪨 eevpn
+🔥 手动切换`select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🚲 SS`[]🪨 萌云
 ☯️ 全部节点`select`.*
 🖇 Relay_Group`relay`[]🔥 手动切换`[]🐔 落地鸡
 🚲 Relay_Select`relay`[]☯️ 全部节点`[]🐔 落地鸡
 ♻️ 自动选择`url-test`(^(?!.*(高峰|流媒体|拥挤)).*)`http://www.gstatic.com/generate_204`300,,50
 🅱️ Crypto Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore)(?!.*(高峰|拥挤))
-💰 Crypto`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
-💰 Direct Trade`select`[]DIRECT`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
-💰 Proxy Trade`select`[]🚲 SS`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
+💰 Crypto`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
+💰 Direct Trade`select`[]DIRECT`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
+💰 Proxy Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
 🤖 AI服务`select`[]🖇 Relay_Group`[]🚲 Relay_Select`(ChatGPT)`[]🔥 手动切换
 👨‍💻‍ Github`select`[]🚀 节点选择`[]☯️ 全部节点`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
 📹 油管视频`select`[]🚀 节点选择`[]☯️ 全部节点`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
@@ -18,14 +18,13 @@
 Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]🔥 手动切换`(0x)
 Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🔥 手动切换`(0x)
  苹果服务`select`[]DIRECT`[]🚀 节点选择`[]🔥 手动切换
+🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]☯️ 全部节点`[]🔥 手动切换`[]DIRECT
 🎯 全球直连`select`[]DIRECT
 🆎 AdBlock`select`[]REJECT`[]DIRECT
 🛡️ 隐私防护`select`[]REJECT`[]DIRECT
-🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]☯️ 全部节点`[]🔥 手动切换`[]DIRECT
 🇭🇰 香港节点`url-test`(港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
 🇸🇬 狮城节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
 🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
 🐔 落地鸡`select`!!GROUP=myfq
 🚲 SS`url-test`!!GROUP=ss`http://www.gstatic.com/generate_204`300,,50
-🪙 一元机场`url-test`!!GROUP=yyjc`http://www.gstatic.com/generate_204`300,,50
-🪨 eevpn`url-test`!!GROUP=eevpn`http://www.gstatic.com/generate_204`300,,50
+🪨 萌云`url-test`!!GROUP=mengyun`http://www.gstatic.com/generate_204`300,,50
