@@ -5,11 +5,9 @@
 🖇 Relay_Group`relay`[]🔥 手动切换`[]🐔 落地鸡
 🚲 Relay_Select`relay`[]☯️ 全部节点`[]🐔 落地鸡
 ♻️ 自动选择`url-test`(^(?!.*(高峰|流媒体|拥挤)).*)`http://www.gstatic.com/generate_204`300,,50
-🅱️ Crypto Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore)(?!.*(高峰|拥挤))
-💰 Crypto`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
-💰 Direct Trade`select`[]DIRECT`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
-💰 Proxy Trade`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|港|HK|Hong Kong)(?!.*(高峰|拥挤))
-🤖 AI服务`select`[]🖇 Relay_Group`[]🚲 Relay_Select`(ChatGPT)`[]🔥 手动切换
+🅱️ Crypto`select`(^(?!.*(?:高峰|流媒体|拥挤|限速|联通|0x|IPv6|ipv6)).*?(台|新北|彰化|TW|Taiwan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|新加坡|坡|狮城|SG|Singapore))
+🤖 Chat服务`select`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🔥 手动切换
+🏪 Shoping`select`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🚀 节点选择`[]🐔 落地鸡`[]🇺🇲 美国节点
 👨‍💻‍ Github`select`[]🚀 节点选择`[]☯️ 全部节点`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
 📹 油管视频`select`[]🚀 节点选择`[]☯️ 全部节点`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
 📺 巴哈姆特`select`[]🚀 节点选择`[]🇨🇳 台湾节点`[]🖇 Relay_Group`[]🚲 Relay_Select`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🔥 手动切换
