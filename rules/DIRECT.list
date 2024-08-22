@@ -52,3 +52,5 @@ DOMAIN-SUFFIX,woozooo.com
 DOMAIN-SUFFIX,wsglw.com
 DOMAIN-SUFFIX,wsglw.net
 DOMAIN-SUFFIX,zhipin.com
+
+IP-CIDR,107.175.33.36/32
