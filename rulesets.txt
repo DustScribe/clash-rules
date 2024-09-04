@@ -1,4 +1,4 @@
-🎯 全球直连,clash-classic:https://raw.githubusercontent.com/mortence/clash-rules/main/rules/GoogleFCM.yaml
+🎯 全球直连,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/GoogleFCM.yaml
 🇬 Google,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Google.list
 🚀 节点选择,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Proxy.list
 🎯 全球直连,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/DirectDomain.list
