@@ -251,7 +251,7 @@ rule-providers:
 
   myopenai:
     <<: *RuleSetClassical
-    url: "https://raw.githubusercontent.com/CuminLo/clash-rules/master/AI.list"
+    url: "https://raw.githubusercontent.com/mortence/clash-rules/main/rules/AI.list"
     path: ./ruleset/myopenai.yaml
 
   bahamut:
