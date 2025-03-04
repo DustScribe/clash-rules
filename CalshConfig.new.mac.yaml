@@ -185,7 +185,7 @@ rule-providers:
 
   mydeny:
     <<: *RuleSetClassical
-    url: "https://raw.githubusercontent.com/mortence/clash-rules/main/rules/Deny.list"
+    url: "https://raw.githubusercontent.com/DustScribe/clash-rules/main/rules/Deny.list"
     path: ./ruleset/mydeny.yaml
     format: text
 
@@ -251,7 +251,7 @@ rule-providers:
 
   myopenai:
     <<: *RuleSetClassical
-    url: "https://raw.githubusercontent.com/mortence/clash-rules/main/rules/AI.list"
+    url: "https://raw.githubusercontent.com/DustScribe/clash-rules/main/rules/AI.list"
     path: ./ruleset/myopenai.yaml
 
   bahamut:

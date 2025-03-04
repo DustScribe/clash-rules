@@ -6,7 +6,7 @@
 🎯 全球直连,https://raw.githubusercontent.com/CuminLo/clash-rules/master/DirectProcess.list
 🎯 全球直连,https://raw.githubusercontent.com/CuminLo/clash-rules/master/DirectDomain.list
 🇬 Google,https://raw.githubusercontent.com/CuminLo/clash-rules/master/Google.list
-🎯 全球直连,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/DIRECT.list
+🎯 全球直连,https://raw.githubusercontent.com/DustScribe/clash-rules/main/rules/DIRECT.list
 🤖 Chat服务,https://raw.githubusercontent.com/CuminLo/clash-rules/master/AI.list
 🤖 Chat服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 🎯 全球直连,[]RULE-SET,applications
@@ -34,7 +34,7 @@
 🎯 全球直连,[]GEOSITE,CN
 🎯 全球直连,[]GEOIP,CN
 🆎 AdBlock,[]GEOSITE,category-ads-all
-🛡️ 隐私防护,https://raw.githubusercontent.com/mortence/clash-rules/main/rules/Deny.list
+🛡️ 隐私防护,https://raw.githubusercontent.com/DustScribe/clash-rules/main/rules/Deny.list
 📺 巴哈姆特,[]GEOSITE,bahamut
 📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
 👨‍💻‍ Github,[]RULE-SET,github
