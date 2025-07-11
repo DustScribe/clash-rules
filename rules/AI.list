@@ -26,3 +26,6 @@ payload:
     # xai
     - DOMAIN-SUFFIX,grok.com
     - DOMAIN-SUFFIX,x.ai
+
+    # gemini
+    - DOMAIN-SUFFIX,gemini.google.com
