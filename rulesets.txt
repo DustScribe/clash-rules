@@ -9,6 +9,7 @@
 🎯 全球直连,https://raw.githubusercontent.com/DustScribe/clash-rules/main/rules/DIRECT.list
 🤖 Chat服务,https://raw.githubusercontent.com/CuminLo/clash-rules/master/AI.list
 🤖 Chat服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+🤖 Chat服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nvidia/Nvidia.list
 🎯 全球直连,[]RULE-SET,applications
 🎯 全球直连,[]DOMAIN,clash.razord.top
 🎯 全球直连,[]DOMAIN,yacd.haishan.me
