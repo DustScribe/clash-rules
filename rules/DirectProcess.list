@@ -1,0 +1,25 @@
+payload:
+  - PROCESS-NAME,WeChat
+  - PROCESS-NAME,企业微信 Helper
+  - PROCESS-NAME,企业微信
+  - PROCESS-NAME,Feishu
+  - PROCESS-NAME,Lark Helper
+  - PROCESS-NAME,syncthing
+  - PROCESS-NAME,zerotier-one
+  - PROCESS-NAME,com.zerotier.one
+  - DST-PORT,9993
+  - DST-PORT,3478
+  - DST-PORT,19302
+  - DST-PORT,22000
+  - DST-PORT,22002
+  - DST-PORT,22067
+  - DST-PORT,123
+  - PROCESS-NAME,ziniao
+  - PROCESS-NAME,ziniaobrowser
+  - PROCESS-NAME,ziniao-gateway
+  - PROCESS-NAME,"ziniao Helper"
+  - PROCESS-NAME,"ziniao Helper (Renderer)"
+  - PROCESS-NAME,"ziniao Helper (GPU)"
+  - PROCESS-NAME,"ziniaobrowser Helper"
+  - PROCESS-NAME,"ziniaobrowser Helper (Renderer)"
+  - PROCESS-NAME,"ziniaobrowser Helper (GPU)"
