@@ -3,6 +3,9 @@
 
 payload:
     - PROCESS-NAME,chatbox
+    - PROCESS-NAME,com.openai.chatgpt
+    - PROCESS-NAME,com.google.android.apps.bard
+    - PROCESS-NAME,ai.x.grok
     - DOMAIN,cdn.auth0.com
     - DOMAIN-SUFFIX,hcaptcha.com
     - DOMAIN-SUFFIX,ai.fakeopen.com
